@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML & javascript are crucial technologies </h1>
+            <p>The web would not work without them</p>
+        </div>
+        <div id="advantages">
+        <ul>
+            <li>Flexible</li>
+            <li id="lielement">Available</li>
+            <li>Magical</li>
+        </ul>
+        </div>
+    </main>
+    <script>
+ console.log(`===== Main heading =======`);
+    
+        const mainHeading = document.querySelector("h1");
+        console.log(mainHeading);
+        
+        console.log(`===== Accessing 2nd li element =======`);
+        const secondAdvantage = document.querySelectorAll("#lielement");
+        for (const element of secondAdvantage) {
+        console.log(element.innerHTML);
+}
+        
+       
+        console.log(`===== Advantages =======`);
+        const addDiv = document.querySelectorAll("li");
+        console.log(addDiv);
+        for (const element of addDiv) {
+        console.log(element.innerHTML);
+}
+
+
+        
+
+    </script>
+</body>
+</html>
