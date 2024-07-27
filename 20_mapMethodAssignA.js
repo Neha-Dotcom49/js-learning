@@ -14,3 +14,8 @@ const newArray1 = arrayNumbers.map((elements,index)=>{
     return elements+index;
 });
 console.log(`After Adding index Into each elements:`,newArray1);
+
+const newArray4 = arrayNumbers.map((elements)=>{
+    return elements
+});
+console.log(newArray4);

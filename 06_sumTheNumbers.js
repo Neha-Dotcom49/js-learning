@@ -11,3 +11,9 @@ for (let i = 0; i <=50; i=i+2) {
     sumEven = sumEven + i;  
 }
 console.log(sumEven);
+
+var oddNum = 0;
+for (let i = 1; i <=50; i=i+2) {
+    oddNum = oddNum + i;  
+}
+console.log(oddNum);

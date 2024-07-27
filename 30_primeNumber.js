@@ -29,3 +29,6 @@ return "Is prime Number";
     }
   }
   console.log(`Total number of prime numbers:`,count);
+
+
+  

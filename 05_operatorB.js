@@ -6,8 +6,6 @@ var greaterNum = function(numOne, numTwo){
 greaterNum(10,-10);
 greaterNum(800,899);
 
-
-
 console.log(`===============step 2=============`);
 function isEvenOrOddNum(argOne){
  var result = argOne%2 == 0 ? true : false;

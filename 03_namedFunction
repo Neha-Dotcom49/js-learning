@@ -6,7 +6,7 @@ function show(){
 show();
 
 function square(){
-    console.log("Finding the Sqaure of 10...");
+    console.log("Finding the Square of 10...");
     var result = 10*10;
     console.log("Square is:",result);
 }

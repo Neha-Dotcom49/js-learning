@@ -117,7 +117,3 @@ console.log(`Given Array:`,arrayNumber);
 const deletedElements = arrayNumber.splice(4,4)
 console.log(arrayNumber);
 console.log(`deleted elements:`,deletedElements);
-
-
-
-

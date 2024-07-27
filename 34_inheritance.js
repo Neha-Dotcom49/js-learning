@@ -19,7 +19,7 @@ class HarrierCar extends Vehicle{
     this.launchYear = launchYear;
    }
    show(){
-    console.log(`Details: ${this.company}, ${this.engine}, ${this.harrierVersion} ${this.launchYear} `);
+    console.log(`Details: ${this.company}, ${this.engine}, ${this.harrierVersion}, ${this.launchYear} `);
    }
 }
 let harrier = new HarrierCar("S Plus", 2023, "TATA", "2000CC");

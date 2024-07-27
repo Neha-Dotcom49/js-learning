@@ -18,4 +18,4 @@ const string = 'code';
 for (let key in string) {
 console.log(string[key]);
         
-    }
+ }

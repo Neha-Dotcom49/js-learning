@@ -24,6 +24,7 @@ let professor = {
         'Certificate in Adv Programming'
     ]
 };
+// console.log(professor.degrees.engineering);
 
 
 console.log(JSON.stringify(professor,null,2));

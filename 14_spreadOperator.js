@@ -4,3 +4,4 @@ console.log(...array);
 
 const clonedArray = [...array];
 console.log(clonedArray);
+

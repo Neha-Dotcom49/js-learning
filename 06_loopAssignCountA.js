@@ -9,21 +9,20 @@ for (let index = 0; index < str.length; index++) {
     if (vowels.includes(chLowerCase)) {
         counter++;
     }
-    
 }
 console.log(counter);
 
 
-console.log(`--------2.WAF to get sum of cube of number from 1 to 5----------`);
-function sumOfcube(){
-    var sumOfcube = 0;
+console.log(`------------------2.WAF to get sum of cube of number from 1 to 5----------`);
+function sumOfcube1(){
+    var sumOfcube1 = 0;
     for (let i = 1; i <= 5; i++) {
-        var cube = i * i * i;
-        sumOfcube = sumOfcube + cube; 
+        var cube2 = i * i * i;
+        sumOfcube1 = sumOfcube1 + cube2; 
     }
-    console.log(sumOfcube);
+    console.log(sumOfcube1);
 }
-sumOfcube();
+sumOfcube1();
 
 console.log(`--------2.WAF to get sum of cube of number from 1 to 5 with the help of return value----------`);
 var sumOfcube = function(num){
@@ -43,8 +42,6 @@ console.log(`sum of cube of number 6 is:${returnValue}`);
 
 
 
-
-
 console.log(`--------3.WAP a program to print odd position character----------`);
 function oddPositionChars(str){
     var result = "";
@@ -58,6 +55,8 @@ function oddPositionChars(str){
 }
 oddPositionChars("Hard Work always pay back");
 oddPositionChars("Soon I will be UI IT Champ");
+
+
 
 
 

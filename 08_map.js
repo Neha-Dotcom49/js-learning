@@ -18,3 +18,18 @@ console.log(`Traversing map`);
 for (const keyVal of map) {
     console.log(keyVal[0], keyVal[1]);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
